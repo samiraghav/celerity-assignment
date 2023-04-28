@@ -1,0 +1,136 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* =============== COMMON COMPONENT CSS START ======================== */
+.bg-F8F {
+    background: #F8F9FD !important;
+}
+.black-393 {
+    color: #393939 !important;
+}
+.blck-363 {
+    color: #363636 !important;
+}
+.gap-20 {
+    gap: 1.03vw;
+}
+.primary-btn,
+.secondary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.972vw 3.680vw;
+    background: #6F57E9;
+    border-radius: 0.834vw;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.319vw;
+    line-height: 1.597vw;
+    color: #FFFFFF;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.secondary-btn {
+    background: transparent;
+    border: 0.1234vw solid #6F57E9;
+    color: #000000;
+}
+.fx-42 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.917vw;
+    line-height: 3.472vw;
+    color: #000000;
+}
+.fx-22 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.528vw;
+    line-height: 1.805vw;
+    color: #000000;
+}
+.mt-8 {
+    margin-top: 0.555vw;
+}
+.fx-33 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.292vw;
+    line-height: 2.777vw;
+    /* identical to box height, or 40px */
+    color: #000000;
+}
+.fx-16 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.13vw;
+    line-height: 1.458vw;
+    color: #535353;
+
+}
+.mt-20 {
+    margin-top: 1.4vw;
+    margin-bottom: 0;
+}
+.fx-11 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.763vw;
+    line-height: 0.920777vw;
+    color: #565656;
+}
+.fx-13 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.90277vw;
+    line-height: 1.11vw;
+    /* identical to box height, or 16px  font 13px*/
+    color: #565656;
+}
+.fx-19 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.33vw;
+    line-height: 1.6vw;
+    /* identical to box height, or 23px */
+    text-align: center;
+    color: #000000;
+}
+.fx-23 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 1.9444vw;
+    /* identical to box height, or 28px */
+
+    color: #000000;
+}
+.fx-28 {
+    font-family: 'Figtree';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.99vw;
+    line-height: 2.4vw;
+    /* identical to box height, or 34px */
+
+    color: #000000;
+}
+.primary-btn-sec{
+    background: #9747FF;
+border-radius: 14px;
+}
+.know-shipper{
+    width: 7.223vw;
+    margin-left: 1vw;
+}
+/* =============== COMMON COMPONENT CSS END ======================== */

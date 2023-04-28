@@ -1,0 +1,555 @@
+
+/* ------- HEADER CSS START -------------- */
+.header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.778vw 2.43055vw;
+    .logo-box {
+        img {
+            width: 11.81vw;
+
+        }
+    }
+}
+.dolor-img {
+    width: 3.333vw;
+}
+/* ------- HEADER CSS END -------------- */
+
+.home-page-heading {
+    margin-top: 2.5vw;
+}
+.serch-bar-nav {
+    margin: 8vw 5.347vw 0;
+    background: #FFFFFF;
+    box-shadow: 20.555vw 37.222vw 17.014vw rgba(21, 31, 72, 0.01), 167px 302px 207px rgba(21, 31, 72, 0.05), 74px 134px 153px rgba(21, 31, 72, 0.09), 19px 34px 84px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+    border-radius: 0.972vw;
+    padding: 2vw 1.63vw;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+            img {
+                width: 1.63vw;
+                margin-right: 0.833vw;
+            }
+            font-family: 'Figtree';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.111vw;
+            line-height: 1.319vw;
+            color: #868686;
+            &:nth-child(3),
+            &:nth-child(4) {
+                border-left: 0.08333vw solid #B9B9B9;
+                padding-left: 1.458vw;
+            }
+            &:nth-child(5) {
+                border-left: 0.08333vw solid #B9B9B9;
+                padding-left: 1.458vw;
+                img {
+                    width: 2.5vw !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+}
+.services-boxes {
+    margin: 6.8055vw 2.2vw 0;
+    .services-box-frame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.1805vw;
+        margin-top: 2.777vw;
+        .box {
+            padding: 1.9444vw 1.6666vw;
+            width: 24%;
+            background: #FFFFFF;
+            box-shadow: 0 10.138vw 4.0277vw rgba(0, 0, 0, 0.01), 0 82px 49px rgba(0, 0, 0, 0.05), 0 36px 36px rgba(0, 0, 0, 0.09), 0 9px 20px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+            border-radius: 1.13vw;
+            margin-bottom: 1.1vw;
+            height: 14.5833vw;
+            .heading {
+                padding-bottom: 1.5vw;
+                margin-bottom: 0;
+                border-bottom: 0.055555vw solid #9E9E9E !important;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 2.222vw;
+                }
+                span {
+                    font-family: 'Figtree';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 1.411vw;
+                    line-height: 1.805vw;
+                    /* identical to box height, or 26px */
+                    text-align: center;
+                    color: #000000;
+                    margin-left: 2.083vw;
+                }
+            }
+        }
+    }
+}
+.wave-box {
+    position: relative;
+    height: 10.41666vw;
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10.41666vw;
+    }
+}
+.chat-bot {
+    position: fixed;
+    right: 3.88888vw;
+    bottom: 7.08333vw;
+    width: 5.208vw;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+// ===================== BOOKIN DETAILS CSS START =====================
+.Booking-steps-bar {
+    width: 100%;
+    margin-top: 3.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .steps-frame {
+        width: 39.791vw;
+    }
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+    width: 2.708vw !important;
+    height: 2.708vw !important;
+    border-radius: 200px !important;
+
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    // background-color: #868686 !important;
+    color: #D3B0FF !important;
+
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    // background-color: #868686 !important;
+    color: #868686 !important;
+    .css-117w1su-MuiStepIcon-text {
+        fill: #868686 !important;
+    }
+}
+.css-zpcwqm-MuiStepConnector-root {
+    top: 1.25vw !important;
+}
+
+.booking-main-frame {
+
+    margin-top: 1.45vw;
+    border-top: 0.069vw solid rgba(180, 180, 180, 0.6);
+}
+.side-nave-filter {
+    width: 25%;
+    padding: 0 3.1vw 0 5.208vw;
+    h3 {
+        padding: 2.708vw 0;
+        font-weight: 900;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            .select-option {
+                background-color: transparent;
+                border: none;
+                outline: none;
+                font-weight: 900 !important;
+                width: 100%;
+                margin-bottom: 1.085vw;
+                &:focus {
+                    box-shadow: none;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+.booking-cards-frame {
+    width: 75%;
+    padding: 1.1vw 0;
+    .top-booking-nav {
+        width: 47.777vw;
+        background: #EBE8FF;
+        box-shadow: 0.972vw 15vw 5.972vw rgba(21, 31, 72, 0.01), 8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09), 1px 13px 30px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+        border-radius: 0.972vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .nav-one {
+            width: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2.917vw;
+
+        }
+        .active-nav {
+            background: #FFFFFF;
+            box-shadow: 0.277vw 0.208vw 0.6944vw rgba(0, 0, 0, 0.1);
+            border-radius: 0.972vw;
+            color: #9747FF;
+
+        }
+    }
+}
+.add-scroll-frame {
+    height: 40.53vw;
+    overflow: scroll;
+}
+.all-bookin-card-frame {
+    margin-top: 2.569vw;
+    width: 54.9305vw;
+
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.569vw;
+    .booking-card-one {
+        width: 100%;
+        padding: 1.25vw 2.0138vw;
+        background: #FFFFFF;
+        border: 0.069vw solid rgba(218, 218, 218, 0.4);
+        box-shadow: 2.708vw 15vw 6.111vw rgba(0, 0, 0, 0.01), 22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09), 2px 14px 30px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+        border-radius: 0.972vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .left-content {
+            width: 80%;
+        }
+    }
+
+}
+.shot-head {
+    display: flex;
+    align-items: center;
+    .express {
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.90277vw;
+        line-height: 1.111vw;
+        text-align: center;
+        color: #FF0000;
+        margin-left: 1.51vw;
+        padding-right: 0.694vw;
+        border-right: 0.0694vw solid rgba(177, 177, 177, 0.6);
+    }
+    .no-day {}
+
+}
+.notation {
+    display: flex;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.719vw;
+    line-height: 0.902vw;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    // width: 3.860vw;
+    width: auto;
+    padding: 0.694vw 0.833vw;
+    gap: 0.694vw;
+    border-radius: 0.972vw;
+    background: #AFFFAD;
+
+}
+
+.locations-to-way {
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        list-style: none;
+        gap: 0.5vw;
+        padding: 0;
+        margin: 1.4vw 0 1.7vw;
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 1.1805vw;
+                margin-right: 0.433vw;
+            }
+            .hr-line {
+                width: 1.5vw;
+                height: 0.0694vw;
+                background-color: #565656;
+
+            }
+        }
+    }
+}
+
+.name-booking-flight {
+    display: flex;
+    align-items: center;
+    gap: 0.47vw;
+    img {
+        width: 1.44vw;
+        height: 1vw;
+    }
+}
+.reate-star {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.36vw;
+    margin-left: 0.972vw;
+    img {
+
+        width: 0.84vw;
+    }
+
+}
+.bookingDetails-nav {
+    margin-top: 3.5vw !important;
+}
+.right-content {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        margin-bottom: 0.972vw;
+        font-weight: 900;
+    }
+    .rounded-border {
+        border-radius: 0.972vw !important;
+        padding: 0.694vw 2.4vw !important;
+        margin-bottom: 0.5vw;
+    }
+    p {
+        color: #363636 !important;
+
+    }
+}
+.css-1hv8oq8-MuiStepLabel-label {
+    font-family: 'Figtree' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 0.90277vw !important;
+    line-height: 1.11vw !important;
+    color: #565656 !important;
+}
+// ===================== BOOKIN DETAILS CSS END =====================
+
+// ?========================== BOOKIN PAGES CSS START =====================
+.bookin-only {
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+        color: #D3B0FF;
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+        color: #D3B0FF !important;
+        .css-117w1su-MuiStepIcon-text {
+            fill: white !important;
+        }
+    }
+
+}
+.css-zpcwqm-MuiStepConnector-root {
+    color: #D3B0FF !important;
+    background-color: #D3B0FF !important;
+}
+.main-frame-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    // padding: 0 2.4035vw;
+    padding: 4.1666vw 2.305vw;
+
+}
+.bookin-price-frame {
+    gap: 0.694vw;
+    width: 62.9861vw;
+    
+}
+.bookin-summary-frame {
+    width: 62.9861vw;
+    .bookin-sum-content {
+
+        padding: 2.0833vw 1.805vw;
+        background: #FFFFFF;
+        box-shadow: 0 13.6111vw 5.4166vw rgba(21, 31, 72, 0.01), 0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09), 0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+        border-radius: 0.972vw;
+        p {
+            margin-top: 1.9444vw;
+            margin-bottom: 0.555vw;
+            color: #000000;
+            font-weight: 900;
+        }
+    }
+}
+
+.form-to-where {
+    gap: 1.04166vw;
+    img {
+        &:first-child {
+            width: 2.4035vw;
+            height: 1.5vw;
+        }
+        &:nth-child(2) {
+            width: 43.958vw;
+            margin-bottom: 2vw;
+        }
+        &:last-child {
+            width: 2.4035vw;
+            height: 1.5vw;
+        }
+    }
+}
+.location-add-frame {
+    gap: 39vw;
+    width: 98%;
+    margin: 0 auto;
+    h3 {
+        width: 100%;
+        white-space: nowrap;
+        &:first-child {
+            // padding-left:1vw ;
+        }
+    }
+}
+.total-w-load-frame {
+    gap: 1.04166vw;
+
+    .total-weight {
+        background: #FFFFFF;
+        box-shadow: 0 196px 78px rgba(21, 31, 72, 0.01), 0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09), 0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+        border-radius: 0.972vw;
+        padding: 1.25vw 1.597vw;
+        width: 16.111vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        p {
+            color: #5C5C5C !important;
+            margin: 0;
+        }
+        img {
+            width: 4.513vw;
+            margin: 1.04166vw 0 0.90277vw;
+        }
+    }
+    .load-frame {
+        width: 46.11vw;
+        background: #FFFFFF;
+        box-shadow: 0 196px 78px rgba(21, 31, 72, 0.01), 0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09), 0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+        border-radius: 0.972vw;
+        padding: 1.25vw 1.597vw;
+
+    }
+}
+.load-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45vw;
+}
+.botttom-frame-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62.9861vw;
+    gap: 1.458vw;
+    .left-content-b {
+        padding: 2.0833vw 1.805vw;
+        background: #FFFFFF;
+        box-shadow: 0 13.6111vw 5.4166vw rgba(21, 31, 72, 0.01), 0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09), 0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+        border-radius: 0.972vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            margin: 2vw 0;
+            width: 9.7916vw;
+            height: 3.125vw;
+        }
+    }
+    .right-conntetn-b {
+        padding: 2.0833vw 1.805vw;
+        background: #FFFFFF;
+        box-shadow: 0 13.6111vw 5.4166vw rgba(21, 31, 72, 0.01), 0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09), 0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+        border-radius: 0.972vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            margin: 2vw 0;
+            width: 15.208vw;
+            height: 2.3611vw;
+        }
+    }
+}
+.total-price-details {
+    background: #FFFFFF;
+    box-shadow: 0 13.6111vw 5.4166vw rgba(21, 31, 72, 0.01), 0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09), 0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+    border-radius: 0.972vw;
+    padding: 2.778vw 2.3vw;
+    width: 25.4166vw;
+}
+.padding-pricing{
+    padding: 2.5vw 0 1.4vw 0;
+    border-bottom: .0694vw solid rgba(179, 179, 179, 0.5);
+}
+.mt-26{
+    margin-top: 1.805vw;
+}
+.pb-26{
+    padding-bottom: 1.805vw;
+}
+.mt-15{
+    margin-top: 1vw;
+}
+.boder-bottom{
+    border-bottom: .0694vw solid rgba(179, 179, 179, 0.5);
+}
+.primary-btn-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.972vw 3.680vw;
+    background: #9747FF;
+    border-radius: 0.834vw;
+    color: #FFFFFF;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+// ?========================== BOOKIN PAGES CSS END =====================
